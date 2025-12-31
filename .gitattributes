@@ -1,0 +1,26 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Swift source files
+*.swift text diff=swift
+
+# Xcode project files
+*.pbxproj binary merge=union
+*.xcworkspacedata binary merge=union
+*.xcscheme binary merge=union
+
+# Interface Builder files
+*.storyboard text
+*.xib text
+
+# Asset catalogs
+*.xcassets/** binary
+
+# Documentation
+*.md text
+*.txt text
+
+# Build artifacts (should be in .gitignore anyway)
+*.o binary
+*.a binary
+*.framework binary
