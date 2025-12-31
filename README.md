@@ -67,7 +67,42 @@
 
 ## 📱 Screenshots
 
-*Coming soon - screenshots showcasing the app in action*
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/73c4a23c-5f2e-4754-9532-baab57497108" width="300" alt="Language Selection"/>
+      <br/>
+      <b>Language Selection</b>
+      <br/>
+      <sub>Choose from multiple languages with flags</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/a6953b07-b478-4586-9e18-33b65ce9c372" width="300" alt="Vocabulary List"/>
+      <br/>
+      <b>Vocabulary List</b>
+      <br/>
+      <sub>Alphabetically sorted entries</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/9a2d5388-2e76-4cc3-890e-e8713ee37482" width="300" alt="Add New Word"/>
+      <br/>
+      <b>Add New Word</b>
+      <br/>
+      <sub>FILL button with Dictionary API</sub>
+    </td>
+    <td align="center">
+      <img src="https://github.com/user-attachments/assets/5fd2ae78-2442-4fa9-be5a-045f2344d7ab" width="300" alt="Edit Emoji"/>
+      <br/>
+      <b>Edit Emoji</b>
+      <br/>
+      <sub>Customize language flags</sub>
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
@@ -89,7 +124,7 @@
 
 ```
 Leevda/
-├── New Group/
+├── Source/                                    # Main source code directory
 │   ├── Leevda/
 │   │   ├── LeevdaApp.swift                    # App entry point
 │   │   ├── Assets.xcassets/                   # App icons and assets
@@ -125,7 +160,12 @@ Leevda/
 │       └── Extensions/
 │           └── Color+Theme.swift              # Color extensions
 │
+├── Leevda.xcodeproj/                          # Xcode project files
+├── LeevdaTests/                               # Unit tests
+├── LeevdaUITests/                             # UI tests
 ├── .gitignore                                 # Git ignore rules
+├── .gitattributes                             # Git attributes
+├── LICENSE                                    # MIT License
 └── README.md                                  # This file
 ```
 
