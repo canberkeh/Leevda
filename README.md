@@ -8,7 +8,7 @@
   ![SwiftUI](https://img.shields.io/badge/SwiftUI-4.0+-green.svg)
   ![License](https://img.shields.io/badge/License-MIT-purple.svg)
 
-  **A beautiful, dark-themed iOS app for learning vocabulary in multiple languages with intelligent dictionary integration**
+  **An iOS app for learning vocabulary in multiple languages with intelligent dictionary integration**
 
 </div>
 
