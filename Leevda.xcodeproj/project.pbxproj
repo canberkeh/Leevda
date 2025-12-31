@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		300578C32EF3F846004A16DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 300578A52EF3F842004A16DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 300578AC2EF3F842004A16DB;
+			remoteInfo = Leevda;
+		};
+		300578CD2EF3F846004A16DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 300578A52EF3F842004A16DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 300578AC2EF3F842004A16DB;
+			remoteInfo = Leevda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		300578AD2EF3F842004A16DB /* Leevda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leevda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300578C22EF3F846004A16DB /* LeevdaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeevdaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		300578CC2EF3F846004A16DB /* LeevdaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeevdaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		300578AF2EF3F842004A16DB /* Leevda */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Leevda;
+			sourceTree = "<group>";
+		};
+		300578C52EF3F846004A16DB /* LeevdaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LeevdaTests;
+			sourceTree = "<group>";
+		};
+		300578CF2EF3F846004A16DB /* LeevdaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = LeevdaUITests;
+			sourceTree = "<group>";
+		};
+		300578E22EF3F8F2004A16DB /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		300578E32EF3F8F7004A16DB /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		300578E42EF3F8FE004A16DB /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		300578E52EF3F905004A16DB /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		300578E62EF3F90B004A16DB /* Utilities */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300578AA2EF3F842004A16DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300578BF2EF3F846004A16DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300578C92EF3F846004A16DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300578A42EF3F842004A16DB = {
+			isa = PBXGroup;
+			children = (
+				300578DF2EF3F8C0004A16DB /* Source */,
+				300578C52EF3F846004A16DB /* LeevdaTests */,
+				300578CF2EF3F846004A16DB /* LeevdaUITests */,
+				300578AE2EF3F842004A16DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		300578AE2EF3F842004A16DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300578AD2EF3F842004A16DB /* Leevda.app */,
+				300578C22EF3F846004A16DB /* LeevdaTests.xctest */,
+				300578CC2EF3F846004A16DB /* LeevdaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300578DF2EF3F8C0004A16DB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				300578E62EF3F90B004A16DB /* Utilities */,
+				300578E52EF3F905004A16DB /* Services */,
+				300578E42EF3F8FE004A16DB /* ViewModels */,
+				300578E32EF3F8F7004A16DB /* Views */,
+				300578E22EF3F8F2004A16DB /* Models */,
+				300578AF2EF3F842004A16DB /* Leevda */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		300578AC2EF3F842004A16DB /* Leevda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300578D62EF3F846004A16DB /* Build configuration list for PBXNativeTarget "Leevda" */;
+			buildPhases = (
+				300578A92EF3F842004A16DB /* Sources */,
+				300578AA2EF3F842004A16DB /* Frameworks */,
+				300578AB2EF3F842004A16DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				300578AF2EF3F842004A16DB /* Leevda */,
+				300578E22EF3F8F2004A16DB /* Models */,
+				300578E32EF3F8F7004A16DB /* Views */,
+				300578E42EF3F8FE004A16DB /* ViewModels */,
+				300578E52EF3F905004A16DB /* Services */,
+				300578E62EF3F90B004A16DB /* Utilities */,
+			);
+			name = Leevda;
+			packageProductDependencies = (
+			);
+			productName = Leevda;
+			productReference = 300578AD2EF3F842004A16DB /* Leevda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		300578C12EF3F846004A16DB /* LeevdaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300578D92EF3F846004A16DB /* Build configuration list for PBXNativeTarget "LeevdaTests" */;
+			buildPhases = (
+				300578BE2EF3F846004A16DB /* Sources */,
+				300578BF2EF3F846004A16DB /* Frameworks */,
+				300578C02EF3F846004A16DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				300578C42EF3F846004A16DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				300578C52EF3F846004A16DB /* LeevdaTests */,
+			);
+			name = LeevdaTests;
+			packageProductDependencies = (
+			);
+			productName = LeevdaTests;
+			productReference = 300578C22EF3F846004A16DB /* LeevdaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		300578CB2EF3F846004A16DB /* LeevdaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300578DC2EF3F846004A16DB /* Build configuration list for PBXNativeTarget "LeevdaUITests" */;
+			buildPhases = (
+				300578C82EF3F846004A16DB /* Sources */,
+				300578C92EF3F846004A16DB /* Frameworks */,
+				300578CA2EF3F846004A16DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				300578CE2EF3F846004A16DB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				300578CF2EF3F846004A16DB /* LeevdaUITests */,
+			);
+			name = LeevdaUITests;
+			packageProductDependencies = (
+			);
+			productName = LeevdaUITests;
+			productReference = 300578CC2EF3F846004A16DB /* LeevdaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300578A52EF3F842004A16DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					300578AC2EF3F842004A16DB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					300578C12EF3F846004A16DB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 300578AC2EF3F842004A16DB;
+					};
+					300578CB2EF3F846004A16DB = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 300578AC2EF3F842004A16DB;
+					};
+				};
+			};
+			buildConfigurationList = 300578A82EF3F842004A16DB /* Build configuration list for PBXProject "Leevda" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300578A42EF3F842004A16DB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 300578AE2EF3F842004A16DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				300578AC2EF3F842004A16DB /* Leevda */,
+				300578C12EF3F846004A16DB /* LeevdaTests */,
+				300578CB2EF3F846004A16DB /* LeevdaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300578AB2EF3F842004A16DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300578C02EF3F846004A16DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300578CA2EF3F846004A16DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300578A92EF3F842004A16DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300578BE2EF3F846004A16DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		300578C82EF3F846004A16DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		300578C42EF3F846004A16DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 300578AC2EF3F842004A16DB /* Leevda */;
+			targetProxy = 300578C32EF3F846004A16DB /* PBXContainerItemProxy */;
+		};
+		300578CE2EF3F846004A16DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 300578AC2EF3F842004A16DB /* Leevda */;
+			targetProxy = 300578CD2EF3F846004A16DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		300578D42EF3F846004A16DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		300578D52EF3F846004A16DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		300578D72EF3F846004A16DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Leevda/Preview Content\"";
+				DEVELOPMENT_TEAM = 38CF2X6QNM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Leevda needs microphone access to record pronunciation of vocabulary words.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbh.leevda.Leevda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		300578D82EF3F846004A16DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Leevda/Preview Content\"";
+				DEVELOPMENT_TEAM = 38CF2X6QNM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Leevda needs microphone access to record pronunciation of vocabulary words.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbh.leevda.Leevda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		300578DA2EF3F846004A16DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38CF2X6QNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbh.leevda.LeevdaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leevda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Leevda";
+			};
+			name = Debug;
+		};
+		300578DB2EF3F846004A16DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38CF2X6QNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbh.leevda.LeevdaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leevda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Leevda";
+			};
+			name = Release;
+		};
+		300578DD2EF3F846004A16DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38CF2X6QNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbh.leevda.LeevdaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leevda;
+			};
+			name = Debug;
+		};
+		300578DE2EF3F846004A16DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 38CF2X6QNM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cbh.leevda.LeevdaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Leevda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300578A82EF3F842004A16DB /* Build configuration list for PBXProject "Leevda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300578D42EF3F846004A16DB /* Debug */,
+				300578D52EF3F846004A16DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300578D62EF3F846004A16DB /* Build configuration list for PBXNativeTarget "Leevda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300578D72EF3F846004A16DB /* Debug */,
+				300578D82EF3F846004A16DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300578D92EF3F846004A16DB /* Build configuration list for PBXNativeTarget "LeevdaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300578DA2EF3F846004A16DB /* Debug */,
+				300578DB2EF3F846004A16DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300578DC2EF3F846004A16DB /* Build configuration list for PBXNativeTarget "LeevdaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300578DD2EF3F846004A16DB /* Debug */,
+				300578DE2EF3F846004A16DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 300578A52EF3F842004A16DB /* Project object */;
+}

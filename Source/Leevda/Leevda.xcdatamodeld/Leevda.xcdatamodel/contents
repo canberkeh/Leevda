@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="23605" systemVersion="24A335" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Language" representedClassName="Language" syncable="YES" codeGenerationType="class">
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="emoji" optional="YES" attributeType="String"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="sortOrder" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <relationship name="vocabularyEntries" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="VocabularyEntry" inverseName="language" inverseEntity="VocabularyEntry"/>
+    </entity>
+    <entity name="VocabularyEntry" representedClassName="VocabularyEntry" syncable="YES" codeGenerationType="class">
+        <attribute name="audioFileName" optional="YES" attributeType="String"/>
+        <attribute name="createdAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="meaning" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="pronunciation" optional="YES" attributeType="String"/>
+        <attribute name="updatedAt" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="word" attributeType="String"/>
+        <relationship name="language" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Language" inverseName="vocabularyEntries" inverseEntity="Language"/>
+    </entity>
+</model>
