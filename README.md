@@ -1,4 +1,4 @@
-# 📚 Leevda - Vocabulary Learning App <img width="1024" height="1024" alt="iTunesArtwork-1024" src="https://github.com/user-attachments/assets/738a7894-b9b1-49f9-8853-52111e2236c8" />
+# 📚 Leevda - Vocabulary Learning App <img width="128" height="128" alt="iTunesArtwork-1024" src="https://github.com/user-attachments/assets/738a7894-b9b1-49f9-8853-52111e2236c8" />
 
 
 <div align="center">
