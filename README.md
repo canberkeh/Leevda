@@ -1,4 +1,4 @@
-# 📚 Leevda - Vocabulary Learning App <img width="64" height="64" alt="iTunesArtwork-1024" src="https://github.com/user-attachments/assets/738a7894-b9b1-49f9-8853-52111e2236c8" />
+# <img width="64" height="64" alt="iTunesArtwork-1024" src="https://github.com/user-attachments/assets/738a7894-b9b1-49f9-8853-52111e2236c8" /> Leevda - Vocabulary Learning App 
 
 
 <div align="center">
@@ -242,11 +242,6 @@ On first launch, you may need to trust the developer certificate:
 1. Open any language's vocabulary list
 2. Tap the **⋯** menu button (top-right)
 3. Tap **"Export CSV"**
-4. Choose where to share:
-   - **AirDrop** to another device
-   - **Files** to save locally or to iCloud
-   - **Email** to send to yourself
-   - **Notes** to save in Apple Notes
 
 ---
 
@@ -369,32 +364,11 @@ NSSortDescriptor(keyPath: \VocabularyEntry.word, ascending: true)
 
 ---
 
-## 🎯 Roadmap
-
-### Planned Features
-
-- [ ] **iCloud Sync** - Sync vocabulary across devices
-- [ ] **CSV Import** - Import existing vocabulary lists
-- [ ] **Spaced Repetition** - Smart learning algorithm
-- [ ] **Quiz Mode** - Test your knowledge
-- [ ] **Progress Statistics** - Track learning progress
-- [ ] **Categories/Tags** - Organize words by topics
-- [ ] **Multiple Audio Files** - Multiple pronunciations per word
-- [ ] **Image Attachments** - Visual learning support
-- [ ] **iPad Support** - Optimized layout for tablets
-- [ ] **Dark/Light Theme Toggle** - User preference
-- [ ] **More API Integrations** - Support for other languages
-- [ ] **Widget Support** - Quick access from home screen
-- [ ] **Offline Mode** - Cache dictionary results
-
----
-
 ## 🐛 Known Issues
 
 - Dictionary API only supports English words
 - iPad layout not yet optimized
 - No iCloud backup (local storage only)
-- CSV import not yet implemented
 
 ---
 
@@ -418,8 +392,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
+- GitHub: [@canberkeh](https://github.com/canberkeh)
 
 ---
 
@@ -435,15 +408,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you encounter any issues or have questions:
 
-1. Check the [Issues](https://github.com/your-username/Leevda/issues) page
+1. Check the [Issues](https://github.com/canberkeh/Leevda/issues) page
 2. Open a new issue with detailed description
 3. Include iOS version, Xcode version, and steps to reproduce
 
 ---
 
 <div align="center">
-
-  **Made with ❤️ for language learners**
 
   ⭐ Star this repo if you find it helpful!
 
