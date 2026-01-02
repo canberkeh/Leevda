@@ -41,9 +41,9 @@ struct AddEditWordView: View {
             Color.appBackground.ignoresSafeArea()
 
             ScrollView {
-                VStack(spacing: AppTheme.paddingLarge) {
+                VStack(spacing: 12) {
                     // Form Header
-                    VStack(spacing: 8) {
+                    VStack(spacing: 6) {
                         Text(isEditing ? "Edit Word" : "Add New Word")
                             .font(.title2.bold())
                             .foregroundColor(.appTextPrimary)
@@ -52,10 +52,10 @@ struct AddEditWordView: View {
                             .font(.subheadline)
                             .foregroundColor(.appTextSecondary)
                     }
-                    .padding(.top)
+                    .padding(.top, 8)
 
                     // Form Fields
-                    VStack(spacing: 16) {
+                    VStack(spacing: 12) {
                         // Word Field
                         VStack(alignment: .leading, spacing: 8) {
                             Text("Word")
@@ -97,8 +97,13 @@ struct AddEditWordView: View {
                                 .font(.caption.bold())
                                 .foregroundColor(.appTextSecondary)
 
-                            TextField("Enter meaning/translation", text: $meaning)
-                                .textFieldStyle(CustomTextFieldStyle())
+                            TextEditor(text: $meaning)
+                                .frame(height: 80)
+                                .padding(12)
+                                .background(AppTheme.secondaryBackground)
+                                .cornerRadius(AppTheme.cornerRadiusMedium)
+                                .foregroundColor(.appTextPrimary)
+                                .scrollContentBackground(.hidden)
                         }
 
                         // Pronunciation Field
@@ -118,7 +123,7 @@ struct AddEditWordView: View {
                                 .foregroundColor(.appTextSecondary)
 
                             TextEditor(text: $note)
-                                .frame(height: 100)
+                                .frame(height: 80)
                                 .padding(12)
                                 .background(AppTheme.secondaryBackground)
                                 .cornerRadius(AppTheme.cornerRadiusMedium)
@@ -153,7 +158,7 @@ struct AddEditWordView: View {
                     .disabled(word.isEmpty || meaning.isEmpty)
                     .padding(.horizontal, AppTheme.paddingMedium)
 
-                    Spacer(minLength: 40)
+                    Spacer(minLength: 20)
                 }
             }
         }
